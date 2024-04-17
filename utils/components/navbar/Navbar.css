@@ -1,0 +1,21 @@
+.nav-container {
+  background-color: var(--nav-color);
+  height: var(--nav-height);
+  width: 100%;
+}
+
+.left-nav-container {
+  flex: 1;
+}
+
+.center-nav-container {
+  flex: 2;
+}
+
+.center-nav-container a {
+  color: var(--secondary-color);
+}
+
+.right-nav-container {
+  flex: 1;
+}
